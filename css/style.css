@@ -1,0 +1,43 @@
+body {
+    font-family: serif;
+}
+
+
+#glyph {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+}
+
+#email {
+    text-decoration: underline;
+}
+
+#foot_center {
+    text-align: center;
+    border: 1px solid black;
+    margin top: 10px;
+    margin-bottom: 10px;
+    padding: top: 10px;
+    padding-bottom: 10px;
+    background-color: #666666;
+}
+
+#senators {
+    font-size: 55px;
+}
+
+#senators_id {
+    font-size: 20px;
+}
+
+#logo {
+  border-radius: 30%;
+  padding-bottom: 25px;
+
+
+
+}
