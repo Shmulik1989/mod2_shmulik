@@ -34,6 +34,21 @@ body {
 }
 
 #logo {
+    margin-top: 10px;
     border-radius: 30%;
     padding-bottom: 25px;
+}
+
+#footer_text {
+    margin-top: 15px;
+    font-size: 150%;
+}
+
+#capitol {
+    margin-bottom: 10px;
+    border-radius: 40%;
+}
+
+p {
+    font-size: 18px;
 }
