@@ -34,9 +34,12 @@ body {
 }
 
 #logo {
+    width: 40%;
     margin-top: 10px;
-    border-radius: 30%;
+    /*border-radius: 50%;*/
     padding-bottom: 25px;
+    opacity: 0.8;
+
 }
 
 #footer_text {
@@ -45,12 +48,14 @@ body {
 }
 
 #capitol {
-    margin-bottom: 20px;
-    border-radius: 40%;
+    margin-bottom: 30px;
+    border-radius: 100%;
+    margin-left: 15px;
+    opacity: 0.8;
 }
 
 p {
-    font-size: 18px;
+    font-size: 19px;
 }
 
 nav {
