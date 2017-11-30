@@ -10,53 +10,57 @@
 </head>
 
 <body>
-    <div class=" container">
+    <div class="container">
         <div class="row">
-            <div id="glyph"><span class="glyphicon glyphicon-envelope text-left"><a id="email" href="mailto:info@tgif.net">info@tgif.net</a></span></p>
-            </div>
-            <div>
+            <div class="col-sm-6">
                 <img id="logo" src="css/logo.jpeg">
             </div>
-        </div>
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="home-starter-page.html">Home</a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Congress 113<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="house-starter-page.html">House</a></li>
-                            <li><a href="senate-starter-page.html">Senate</a></li>
-                        </ul>
-                    </li>
-                </ul>
+            <div class="col-sm-6" id="glyph">
+                <span class="glyphicon glyphicon-envelope">
+                    <a id="email" href="mailto:info@tgif.net">info@tgif.net</a>
+                </span>
             </div>
-        </nav>
-        <div class="container" id="content_senate">
-            <h1 id="senators">Senators</h1>
-            <p id="senators_id">First convened in 1789, the composition and powers of the Senate are established in Article One of the U.S. Constitution. Each state is represented by two senators, regardless of population, who serve staggered six-year terms. The Senate has several exclusive powers not granted to the House, including consenting to treaties as a precondition to their ratification and consenting to or confirming appointments of Cabinet secretaries, federal judges, other federal executive officials, military officers, regulatory officials, ambassadors, and other federal uniformed officers, as well as trial of federal officials impeached by the House.</p>
         </div>
-        <div class="table-responsive">
-            <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th>Full Name</th>
-                        <th>State</th>
-                        <th>Party</th>
-                        <th>Seniority</th>
-                        <th>Total votes</th>
-                    </tr>
-                </thead>
-                <tbody id="member-table"></tbody>
-            </table>
+    </div>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="home-starter-page.html">Home</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Congress 113<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="house-starter-page.html">House</a></li>
+                        <li><a href="senate-starter-page.html">Senate</a></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
-        <div id="foot_center" class="footer container">
-            (C) 2016 TGIF | All Rights Reserved
-        </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="js/senate.js"></script>
+    </nav>
+    <div class="container" id="content_senate">
+        <h1 id="senators">Senators</h1>
+        <p id="senators_id">First convened in 1789, the composition and powers of the Senate are established in Article One of the U.S. Constitution. Each state is represented by two senators, regardless of population, who serve staggered six-year terms. The Senate has several exclusive powers not granted to the House, including consenting to treaties as a precondition to their ratification and consenting to or confirming appointments of Cabinet secretaries, federal judges, other federal executive officials, military officers, regulatory officials, ambassadors, and other federal uniformed officers, as well as trial of federal officials impeached by the House.</p>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>State</th>
+                    <th>Party</th>
+                    <th>Seniority</th>
+                    <th>Total votes</th>
+                </tr>
+            </thead>
+            <tbody id="member-table"></tbody>
+        </table>
+    </div>
+    <div id="foot_center" class="footer container">
+        (C) 2016 TGIF | All Rights Reserved
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/senate.js"></script>
 </body>
 
 </html>

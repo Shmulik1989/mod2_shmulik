@@ -8,8 +8,7 @@ body {
     justify-content: flex-end;
     align-self: flex-end;
     font-size: 25px;
-    margin-bottom: 25px;
-    margin-right: 20px;
+    top: 45px;
 }
 
 #email {
@@ -35,9 +34,6 @@ body {
 }
 
 #logo {
-  border-radius: 30%;
-  padding-bottom: 25px;
-
-
-
+    border-radius: 30%;
+    padding-bottom: 25px;
 }

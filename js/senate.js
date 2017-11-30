@@ -32,7 +32,7 @@ var data = $.getJSON("data/pro_congress_113_senate.json", function(data) {
 
     for (var i = 0; i < members.length; i++) {
         var table = "<tr>"
-        table += "<td>" + '<a href="' + members[i].url + '">' + members[i].first_name + " " + checkMidName(members[i].middle_name) + " " + members[i].last_nameH + "</td>"
+        table += "<td>" + '<a href="' + members[i].url + '">' + members[i].first_name + " " + checkMidName(members[i].middle_name) + " " + members[i].last_name + "</td>"
         table += "<td>" + members[i].state + "</td>"
         table += "<td>" + convertParty(members[i].party) + "</td>"
         table += "<td>" + members[i].seniority + "</td>"
