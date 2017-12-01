@@ -1,25 +1,16 @@
 body {
-    font-family: monospace;
-    font-size: 15px;
+    font-family: serif;
 }
 
 
 h1 {
-    color:#3385ff;
-    width: 120%;
     position: absolute;
-    right: 20px;
-    border: 1px solid black;
-    border-spacing: 7px;
+    right: 98%;
 
 }
 
 #glyph {
-    
-    display: flex;
-    justify-content: flex-end;
-    font-size: 180%;
-    margin-top: 55px;
+    font-size: 30px;
 }
 
 #email {
@@ -45,9 +36,9 @@ h1 {
 }
 
 #logo {
-    width: 65%;
+    width: 55%;
     margin-top: 10px;
-    border-radius: 35%;
+    border-radius: 15%;
     padding-bottom: 25px;
     opacity: 0.8;
 }
@@ -65,7 +56,7 @@ h1 {
 }
 
 p {
-    font-size: 15px;
+    font-size: 19px;
 }
 
 nav {
