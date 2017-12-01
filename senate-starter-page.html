@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TGIF Senate Homepage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/jpeg" href="css/images/scope.jpeg">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="home-starter-page.html"><img id="logo" src="css/logo.jpeg" alt="NYSL Logo"></a>
+            </div>
+            <div class="col-sm-4">
+                <h1>Transparent Goverment in Fact | TGIF |</h1></div>
+            <div class="col-sm-4" id="glyph">
+                <i class="glyphicon glyphicon-envelope">
+                    <a href="mailto:info@tgif.net">info@tgif.net</a>
+                </i>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="home-starter-page.html">Home</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Congress 113<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="house-starter-page.html">House</a></li>
+                        <li><a href="senate-starter-page.html">Senate</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container" id="content_senate">
+        <header id="senators">Senators</header>
+        <p>First convened in 1789, the composition and powers of the Senate are established in Article One of the U.S. Constitution. Each state is represented by two senators, regardless of population, who serve staggered six-year terms. The Senate has several exclusive powers not granted to the House, including consenting to treaties as a precondition to their ratification and consenting to or confirming appointments of Cabinet secretaries, federal judges, other federal executive officials, military officers, regulatory officials, ambassadors, and other federal uniformed officers, as well as trial of federal officials impeached by the House.</p>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>State</th>
+                    <th>Party</th>
+                    <th>Seniority</th>
+                    <th>Total votes</th>
+                </tr>
+            </thead>
+            <tbody id="member-table"></tbody>
+        </table>
+    </div>
+    <div id="foot_center" class="footer container">
+        <p id="footer_text">
+            <p id="footer_text">(C) 2016 TGIF | All Rights Reserved</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/senate.js"></script>
+</body>
+
+</html>

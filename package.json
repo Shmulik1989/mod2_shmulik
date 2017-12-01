@@ -1,0 +1,28 @@
+{
+  "name": "mod2_shmulik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "shmulik": "live-server",
+    "compileStyle": "node-sass -w scss/style.scss css/style2.css",
+    "dev" : "npm-run-all --paralell server compileStyle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shmulik1989/mod2_shmulik.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shmulik1989/mod2_shmulik/issues"
+  },
+  "homepage": "https://github.com/Shmulik1989/mod2_shmulik#readme",
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "npm-run-all": "^4.1.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
