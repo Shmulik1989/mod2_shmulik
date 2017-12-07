@@ -6,17 +6,15 @@ body {
 
 
 h1 {
-    color:#3385ff;
+
     width: 120%;
     position: absolute;
     right: 20px;
-    border: 3px solid black;
     border-spacing: 7px;
-
 }
 
 #glyph {
-    
+
     display: flex;
     justify-content: flex-end;
     font-size: 180%;
@@ -83,11 +81,10 @@ nav {
 }
 
 .states_filter {
-display: flex;
-justify-content: flex-end;
-margin-bottom: 15px;
-margin-right: 20px;
-
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+    margin-right: 20px;
 }
 
 .party_filter {

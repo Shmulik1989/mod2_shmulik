@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>TGIF House Homepage</title>
+    <title>TGIF 'House' Members</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -10,11 +10,11 @@
     <link rel="icon" type="image/jpeg" href="css/logo.jpeg">
 </head>
 
-<body>
-    <div class="container">
+<body data-congress="house">
+      <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <a href="home-starter-page.html"><img id="logo" src="css/logo.jpeg" alt="NYSL Logo"></a>
+                <a href="home-starter-page.html"><img id="logo" src="css/logo.jpeg" alt="TGIF logo"></a>
             </div>
             <div class="col-sm-4">
                 <h1>Transparent Goverment in Fact | TGIF |</h1></div>
@@ -25,7 +25,7 @@
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
             </div>
@@ -37,6 +37,18 @@
                         <li><a href="senate-starter-page.html">Senate</a></li>
                     </ul>
                 </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Attendance<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="house-attendance-starter-page.html">House</a></li>
+                        <li><a href="senate-attendance-starter-page.html">Senate</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Party Loyalty<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="house-party-loyalty-starter-page.html">House</a></li>
+                        <li><a href="senate-party-loyalty-starter-page.html">Senate</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </nav>
@@ -46,65 +58,14 @@
     </div>
     <div class="container party_filter">
         <label>Filter by Party:</label>
-        <input type="checkbox" name="D" value="Democrat">Democrat&nbsp;
-        <input type="checkbox" name="R" value="Republican">Republican&nbsp;
-        <input type="checkbox" name="I" value="Independent">Independent
+        <input id="D" type="checkbox" name="D" value="Democrats" checked="checked">Democrats&nbsp;
+        <input id="R" type="checkbox" name="R" value="Republicans" checked="checked">Republicans&nbsp;
+        <input id="I" type="checkbox" name="I" value="Independents" checked="checked">Independents
     </div>
     <div class="states_filter">
         <label>Filter by State:</label>
-        <select>
-            <option>All States</option>
-            <option>Al</option>
-            <option>AK</option>
-            <option>AZ</option>
-            <option>AR</option>
-            <option>CA</option>
-            <option>CO</option>
-            <option>CT</option>
-            <option>DE</option>
-            <option>DC</option>
-            <option>FL</option>
-            <option>GA</option>
-            <option>HI</option>
-            <option>ID</option>
-            <option>IL</option>
-            <option>IN</option>
-            <option>IA</option>
-            <option>KS</option>
-            <option>KY</option>
-            <option>LA</option>
-            <option>ME</option>
-            <option>MD</option>
-            <option>MA</option>
-            <option>MI</option>
-            <option>MN</option>
-            <option>MS</option>
-            <option>MO</option>
-            <option>MT</option>
-            <option>NE</option>
-            <option>NV</option>
-            <option>NH</option>
-            <option>NJ</option>
-            <option>NM</option>
-            <option>NY</option>
-            <option>NC</option>
-            <option>ND</option>
-            <option>OH</option>
-            <option>OK</option>
-            <option>OR</option>
-            <option>PA</option>
-            <option>RI</option>
-            <option>SC</option>
-            <option>SD</option>
-            <option>TN</option>
-            <option>TX</option>
-            <option>UT</option>
-            <option>VT</option>
-            <option>VA</option>
-            <option>WA</option>
-            <option>WV</option>
-            <option>WI</option>
-            <option>WY</option>
+        <select id="statesFilter">
+            <option value="">All States</option>
         </select>
     </div>
     <div class="table-responsive">
@@ -112,13 +73,13 @@
             <thead>
                 <tr>
                     <th>Full Name</th>
-                    <th>State</th>
                     <th>Party</th>
+                    <th>State</th>
                     <th>Seniority</th>
                     <th>Total votes</th>
                 </tr>
             </thead>
-            <tbody id="member-table"></tbody>
+            <tbody id="politiciansTable"></tbody>
         </table>
     </div>
     <div id="foot_center" class="footer container">
@@ -127,7 +88,7 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/house.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
