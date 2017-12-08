@@ -71,9 +71,9 @@ function DataHandler() { //Single source of truth where all of our data is store
 
     }
 
-    // 5.adds the gathered statistics to the HTML tables using id's.	
+    // 5.adds the gathered statistics(and rounds when needed using Math.round) to the HTML tables using id's.	
 
-    this.addToTable = function (argument) {
+    this.addToTable = function() {
     	var that = this;
     	$('#repCount').text(this.statistics.membersRep)
     	$('#demCount').text(this.statistics.membersDem)
@@ -81,6 +81,12 @@ function DataHandler() { //Single source of truth where all of our data is store
     	$('#votedWithRep').text(Math.round(this.statistics.averageRep) + '%' ,this.statistics.averageRep)
     	$('#votedWithDem').text(Math.round(this.statistics.averageDem) + '%' ,this.statistics.averageDem)
     	$('#votedWithIn').text(Math.round(this.statistics.averageIn) + '%' ,this.statistics.averageIn)
+
+    	$.each(this.statistics, function(index, val) {
+    		 
+    	});
+
+
 
     }
 
